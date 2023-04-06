@@ -1,0 +1,148 @@
+    1  ls -l
+    2  mkdir data
+    3  mkdir data/raw
+    4  mkdir data/raw/birdstrikes
+    5  man ls
+    6  ls --help
+    7  cd
+    8  cd Mahasti-Tasmuri/data/raw/birdstrikes/
+    9  ls -al
+   10  ls birdstrike_small
+   11  ls -hal birdstrike-small.csv
+   12  pwd
+   13  cd
+   14  pwd
+   15  cd data/
+   16  cd Mahasti-Tasmuri/
+   17  cd data/
+   18  ls
+   19  ls -l
+   20  cd raw/birdstrikes/
+   21  ls
+   22  curl -o birdstrikes-small.csv https://ceu-economics-and-business.github.io/ECBS-5146-Different-Shapes-of-Data/artifacts/intro/birdstrikes_small.csv
+   23  curl -Lo birdstrikes-small.csv https://ceu-economics-and-business.github.io/ECBS-5146-Different-Shapes-of-Data/artifacts/intro/birdstrikes_small.csv
+   24  ls -l
+   25  pwd
+   26  cd
+   27  cd Mahasti-Tasmuri/
+   28  ls -l data
+   29  ls -l data/raw/
+   30  cd data/raw/birdstrikes/
+   31  ls -l
+   32  cd
+   33  pwd
+   34  ls -l
+   35  cd Mahasti-Tasmuri/
+   36  ls -l
+   37  mkdir docs
+   38  ls -l
+   39  cd d
+   40  cd d
+   41  cd data/
+   42  cd
+   43  ls -l
+   44  cd Mahasti-Tasmuri/
+   45  cd 
+   46  cd
+   47  cd Mahasti-Tasmuri/
+   48  ls -al
+   49  ls ..
+   50  cd d
+   51  pwd
+   52  cd 
+   53  cd Mahasti-Tasmuri/data/raw/
+   54  cd ~
+   55  cd Mahasti-Tasmuri/data/raw/birdstrikes/
+   56  cd /
+   57  ls -al
+   58  pwd
+   59  cd 
+   60  cd Mahasti-Tasmuri/data/raw/birdstrikes/
+   61  ls -al
+   62  ls birdstrikes-small.csv 
+   63  ls -al birdstrikes-small.csv 
+   64  wc birdstrikes-small.csv 
+   65  pwd
+   66  cd
+   67  cd Mahasti-Tasmuri/
+   68  head -n2
+   69  head -n2 data/raw/birdstrikes/birdstrikes-small.csv 
+   70  csvcut
+   71  csvcut --names data/raw/birdstrikes/
+   72  csvcut --names data/raw/birdstrikes/birdstrikes-small.csv 
+   73  mkdir data/raw/worldbank
+   74  curl -Lo worldbank-indonesia.csv https://api.worldbank.org/v2/en/country/IDN?downloadformat=csv
+   75  ls -l
+   76  head worldbank-indonesia.csv 
+   77  cd data/raw/
+   78  pwd
+   79  cd
+   80  cd Mahasti-Tasmuri/
+   81  csvcut --names data/raw/worldbank/
+   82  csvcut --name data/raw/
+   83  csvcut --names data/raw/worldbank/
+   84  wc -l data/raw/birdstrikes/
+   85  wc -l data/raw/birdstrikes/birdstrikes-small.csv 
+   86  git commit --help
+   87  sudo apt update
+   88  sudo apt instal unminimize
+   89  sudo unminimize
+   90  sudo apt install man-db
+   91  git commit
+   92  wc -l Makefile
+   93  pwd
+   94  git init
+   95  ls -hal
+   96  git status
+   97  git commit
+   98  git config --global user.name "Mahasti Tasmuri"
+   99  git config --get user.name
+  100  git config --global user.email "nugraheniyunmahasti@gmail.com"
+  101  git commit -m "Add repository to Github"
+  102  git add data/
+  103  git status
+  104  git commit -m 'Download data from Worldbank'
+  105  git log
+  106  git add README.md 
+  107  git status
+  108  git log
+  109  ls data/raw/birdstrikes/birdstrikes-small.csv 
+  110  git remote add origin https://github.com/lilbayti/final-assignment-ceu.git
+  111  git branch -M main
+  112  git push -u origin main
+  113  git remote add origin https://github.com/lilbayti/final-assignment-ceu.git
+  114  git branch -M main
+  115  git push -u origin main
+  116  git remote add origin https://github.com/lilbayti/final-assignment-ceu.git
+  117  git branch -M main
+  118  git push -u origin main
+  119  git push -u origin main
+  120  git remote add origin https://github.com/lilbayti/final-assignment-ceu.git
+  121  git push -u origin main
+  122  git branch -M main
+  123  git push -u origin main
+  124  git remote add origin https://github.com/lilbayti/final-assignment-ceu.git
+  125  git branch -M main
+  126  git push -u origin main
+  127  git remote add origin https://github.com/lilbayti/final-assignment-ceu.git
+  128  git branch -M main
+  129  git push -u origin main
+  130  git remote add origin https://github.com/lilbayti/final-assignment-ceu.git
+  131  git branch -M main
+  132  git push -u origin main
+  133  git push -u origin main
+  134  git remote add origin https://github.com/lilbayti/final-assignment-ceu.git
+  135  git branch -M main
+  136  git push -u origin main
+  137  git remote set-url origin https://github.com/lilbayti
+  138  git push -u origin main
+  139  git remote set-url origin https://github.com/lilbayti/final-assignment-ceu
+  140  git push -u origin main
+  141  git remote add origin https://github.com/lilbayti/final-assignment-ceu.git
+  142  git branch -M main
+  143  git push -u origin main
+  144  git remote add origin https://github.com/lilbayti/final-assignment-ceu.git
+  145  git branch -M main
+  146  git push -u origin main
+  147  git push -u origin main
+  148  history > history.txtt
