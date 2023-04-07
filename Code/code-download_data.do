@@ -1,0 +1,2 @@
+*use a sample of data from the course website
+copy "https://ceu-economics-and-business.github.io/ECBS-5146-Different-Shapes-of-Data/artifacts/intro/birdstrikes_small.csv" "data/raw/birdstrikes/birdstrikes-small.csv", replace"
