@@ -1,11 +1,15 @@
-use "data/derived/birdstrike-small.dta", clear
+use "data/derived/birdstrikes-small.dta", clear
 
-count
+
+
 *count within-airline tenders
 count if id == cost
 *count cross-airline tenders
 count if id != cost
 
-generate same_id = 0
-repalce same_id = 1 if id == cost
 
+* Graph of Aircraft ID and cost
+regress cost id
+histogram cost
+generate ln_(cost) = ln(cost)
+histogram ln_cost
