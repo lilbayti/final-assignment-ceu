@@ -1,8 +1,9 @@
 import delimited "data/raw/birdstrikes/birdstrikes-small.csv", clear
-destring damage, force replace
-keep id aircraft flight_date airline state cost reported_date bird_size feet_above_ground
+
+keep id aircraft airline cost
 * winsorize small tender values
-drop if strlen(bird_size) > 2
+replace cost = 400 if cost < 400
 * drop tenders with multiple winners
-display missing(.,2)
-save "data/raw/birdstrikes/birdstrikes-small.csv", replace
+drop if strlen(aircraft) > 2
+drop if missing(bird_size, feet_above_ground)
+save "data/derived/birdstrikes-small.dta", replace
